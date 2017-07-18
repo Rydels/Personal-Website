@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Evan Brydels | Software Developer</title>
+  <link href="css/layout.css" rel="stylesheet" type="text/css" >
+</head>
+<body class="max-page-width">
+  <nav class="center">
+    <ul class = "a">
+      <button onclick="openIndexBtn()" class="button1">Home</button>
+      <button onclick="openProjectsBtn()"  class="button1">Projects</button>
+      <button onclick="openResumeBtn()" class="button1 focus">Resume</button>
+      <button onclick="openAboutBtn()"class="button1">About Me</button>
+      <button onclick="openContactBtn()"class="button1">Contact</button>
+      
+    </ul>
+  </nav>
+<!-- diff --> 
+ <div class="resume-block"> 
+  <div class="open-resume a"> 
+   <span> 
+     <a> <a href="/img/EB-Resume.pdf" target="_blank"><button class="button3" >Open Resume</button></a>
+   </span>
+   <span class = "divider"></span> 
+  </div>
+    <div class = "dev-wrapper">    
+     <span class = "dev-setting-icon"></span>
+        <span class="title2">Development</span>
+          <ul>
+            <li class="dev-circle">Java</li>
+            <li class="dev-circle">C++</li>
+            <li class="dev-circle">C</li>
+            <li class="dev-circle">JavaScript</li>
+            <li class="dev-circle">HTML</li>
+            <li class="dev-circle">CSS</li>
+            <li class="dev-circle">SQL</li>
+            <li class="dev-circle">Visual Basic</li>
+          </ul>
+    </div>
+ <div class = "know-wrapper">
+     <span class = "know-bulb-icon"></span>
+    <span class="title2">Knowledge</span>
+      <ul>
+        <li class="know-list">Spring</li>
+        <li class="know-list">MVC</li>
+        <li class="know-list">jQuery</li>
+        <li class="know-list">Json</li>
+        <li class="know-list">Angualr</li>
+        <li class="know-list">Nodejs</li>
+        <li class="know-list">Oracle</li>
+        <li class="know-list">NPM</li>
+        <li class="know-list">Yarn</li>
+      </ul>
+  </div> 
+</div>
+</body>
+<!-- diff -->  
+
+<script type =text/javascript>
+  function openIndexBtn() {
+    window.open('index.html','_self'); 
+  }
+  function openProjectsBtn() {
+    window.open('projects.html','_self'); 
+  } 
+  function openResumeBtn(){
+    window.open('resume.html','_self');
+  }
+  function openContactBtn(){
+    window.open('contact.html','_self');
+  }
+  function openAboutBtn(){
+    window.open('about.html','_self');
+  }
+</script> 
+</html> 
+

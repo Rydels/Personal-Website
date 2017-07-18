@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Evan Brydels | Software Developer</title>
+  <link href="css/layout.css" rel="stylesheet" type="text/css" >
+</head>
+<body class="max-page-width">
+  <nav class="center">
+    <ul class="a">
+      <button onclick="openIndexBtn()" class="button1">Home</button>
+      <button onclick="openProjectsBtn()"  class="button1">Projects</button>
+      <button onclick="openResumeBtn()" class="button1">Resume</button>
+        <button onclick="openAboutBtn()"class="button1">About Me</button>
+      <button onclick="openContactBtn()"class="button1">Contact</button>
+    </ul>
+  </nav>
+<!-- diff -->  
+  <div class = "contact-wrapper">
+    <div class ="title2">Contact Me</div>
+    <div><span class="divider"><span></div>
+   <form class="form-wrapper" method="POST" action="http://formspree.io/evanbrydels@gmail.com">
+   <div class="input-heading">Email:</div>
+    <div><input class ="email" name="email"  type="email"></div>
+    <div class="input-heading">Subject:</div>
+    <div><input class="subject" type="_subject" name="_subject" ></div>
+    <div class="input-heading">Message:</div>
+    <div><textarea  class="message" name="message" ></textarea></div>
+    <button class="button3" type="submit" >Send</button>
+   </form>
+  </div> 
+</body>
+<!-- diff -->  
+
+<script type =text/javascript>
+  function openIndexBtn() {
+    window.open('index.html','_self'); 
+  }
+  function openProjectsBtn() {
+    window.open('projects.html','_self'); 
+  } 
+  function openResumeBtn(){
+    window.open('resume.html','_self');
+  }
+  function openContactBtn(){
+    window.open('contact.html','_self');
+  }
+  function openAboutBtn(){
+    window.open('about.html','_self');
+  }
+</script> 
+</html> 
+

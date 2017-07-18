@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Evan Brydels | Software Developer</title>
+  <link href="css/layout.css" rel="stylesheet" type="text/css" >
+</head>
+<body class="max-page-width">
+  <nav class="center">
+    <ul class ="a">
+      <button onclick="openIndexBtn()" class="button1">Home</button>
+      <button onclick="openProjectsBtn()"  class="button1 focus">Projects</button>
+      <button onclick="openResumeBtn()" class="button1">Resume</button>
+       <button onclick="openAboutBtn()"class="button1">About Me</button>
+      <button onclick="openContactBtn()"class="button1">Contact</button>
+    </ul>
+  </nav>
+<!-- diff -->  
+  <div class="projects-wrapper"> 
+     <span class="about-me-title">Search Engine Optimization Website</span> 
+     <div class = "about-divider"></div>
+     <div class="about-me-paragraph"> Contributed to a public website where 
+       a user can enter a URL and perform a scan to ensure that it complies with industry best
+       practice for SEO. Such checks included performing a page speed test, checking meta tags and
+        values in html and ensuring that the site responds with proper status codes. 
+        <a href ="http://semozeroseo.herokuapp.com/" class="link"target="_blank">Project website can be
+        found here</a> and the <a href ="https://github.com/tjbortz1s/zero-seo" class="link"target="_blank">github
+        repository here.</a>
+     </div>
+     
+      <span class="about-me-title">Game Store Database</span> 
+      <div class = "about-divider"></div>
+     <div class="about-me-paragraph">Designed entity relationship diagrams and implemented 
+       a video game store database with SQL. Created a simple application in Java using JDBC to run SQL 
+       query’s.
+     </div>
+       <span class="about-me-title">This website</span> 
+       <div class = "about-divider"></div>
+     <div class="about-me-paragraph"> This website was build with JavaScript, HTML, CSS, and Express.
+     </div>
+  </div> 
+</body>
+<!-- diff -->  
+
+<script type =text/javascript>
+  function openIndexBtn() {
+    window.open('index.html','_self'); 
+  }
+  function openProjectsBtn() {
+    window.open('projects.html','_self'); 
+  } 
+  function openResumeBtn(){
+    window.open('resume.html','_self');
+  }
+  function openContactBtn(){
+    window.open('contact.html','_self');
+  }
+  function openAboutBtn(){
+    window.open('about.html','_self');
+  }
+</script> 
+</html> 
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Evan Brydels | Software Developer</title>
+  <link href="css/layout.css" rel="stylesheet" type="text/css" >
+</head>
+<body class="max-page-width">
+  <nav class="center">
+    <ul class ="a">
+      <button onclick="openIndexBtn()" class="button1">Home</button>
+      <button onclick="openProjectsBtn()" class="button1">Projects</button>
+      <button onclick="openResumeBtn()" class="button1">Resume</button>
+      <button onclick="openAboutBtn()"class="button1">About Me</button>
+      <button onclick="openContactBtn()"class="button1">Contact</button>
+    </ul>
+  </nav>
+<!-- diff -->  
+  <div class = "about-wrapper">
+      <img class="portrait-wrapper self-portrait" src="/img/portrait.jpg" alt="self-portrait">
+     <span class="about-me-title">Hi, I'm Evan</span> 
+     <div class = "about-divider"></div>
+     <div class="about-me-paragraph"> I'm a recent graduate from Southeast Missouri State University
+          with a Bachelor of Science in Computer Information Systems. I am a quick learner, 
+          self-discipline, and highly-motivated individual who thrives solving problems.
+     </div>
+      <span class="about-me-title">What I do</span> 
+      <div class = "about-divider"></div>
+     <div class="about-me-paragraph">I have knowledge of Software Development Life Cycles which 
+         enables me to design, implement, and test software efficiently and effectively. 
+         My work ranges from software applications to website development. My latest project 
+         was a SEO website for Vintage Software that scans a URL to ensure it complies with industry best practice for SEO. 
+         Check out the site at <a href ="http://semozeroseo.herokuapp.com/" class="link"target="_blank">SEO-site</a>. 
+         More details and other projects <a href ="/projects.html" class="link">here</a>.
+     </div>
+       <span class="about-me-title">Hobbies</span> 
+       <div class = "about-divider"></div>
+     <div class="about-me-paragraph">I enjoy spending my free time reading, socializing, exercising, 
+         and learning new things. 
+     </div>
+    
+  </div> 
+</body>
+<!-- diff -->  
+
+<script type =text/javascript>
+  function openIndexBtn() {
+    window.open('index.html','_self'); 
+  }
+  function openProjectsBtn() {
+    window.open('projects.html','_self'); 
+  } 
+  function openResumeBtn(){
+    window.open('resume.html','_self');
+  }
+  function openContactBtn(){
+    window.open('contact.html','_self');
+  }
+  function openAboutBtn(){
+    window.open('about.html','_self');
+  }
+</script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</html> 
+
